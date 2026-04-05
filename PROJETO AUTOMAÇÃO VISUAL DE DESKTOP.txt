@@ -1,0 +1,166 @@
+PROJETO: AUTOMAÇÃO VISUAL DE DESKTOP (STATUS ATUAL + LIMITAÇÕES)
+
+========================================================
+📌 VISÃO GERAL DO PROJETO
+=========================
+
+Este projeto tem como objetivo criar um sistema de automação baseado em visão computacional que:
+
+* Detecta elementos na tela (imagens/âncoras)
+* Calcula regiões de interesse (ROI)
+* Captura partes específicas da tela
+* Extrai texto via OCR
+* Executa ações automatizadas (clique, teclado)
+* Opera em múltiplas janelas (incluindo RDP)
+* Trabalha com lógica baseada em estados (state machine)
+
+O sistema foi sendo desenvolvido com foco em automação prática, com forte uso de:
+
+* Python
+* OpenCV / detecção por imagem
+* OCR (provavelmente Tesseract ou similar)
+* Scripts modulares
+* Testes por arquivos separados
+
+========================================================
+🧠 O QUE O PROJETO JÁ CONSEGUE FAZER
+====================================
+
+✔ Detecção de imagens na tela (anchors)
+✔ Cálculo dinâmico de ROI baseado na âncora
+✔ Captura de regiões específicas da tela
+✔ OCR de regiões capturadas
+✔ Execução de cliques e ações básicas
+✔ Scripts de teste (ROI / imagens)
+✔ Estrutura modular (vision, actions, engine)
+✔ Base para automação em múltiplas janelas (RDP incluso)
+✔ Calibração manual de áreas
+
+========================================================
+⚙️ IDEIAS E FUNCIONALIDADES QUE VOCÊ PEDIU
+==========================================
+
+Durante o desenvolvimento, foram solicitadas as seguintes funcionalidades:
+
+1. Sistema completo de automação baseado em imagem + OCR
+2. Captura automática de ROI sem ajuste manual constante
+3. Calibrador visual para definir regiões clicando na tela
+4. Sistema de múltiplas ROIs com salvamento em config
+5. Detecção inteligente de elementos variáveis (menus dinâmicos)
+6. Execução com delay para seleção de janela (5 segundos)
+7. Execução baseada em ENTER ou trigger manual
+8. Sistema que funciona independente da posição da tela
+9. Automação rodando dentro de múltiplos RDPs
+10. Sistema escalável para diferentes resoluções (ex: 1920x1080)
+11. Máscara de áreas inválidas (ex: regiões pretas do mapa)
+12. Detecção de elementos com threshold configurável (%)
+13. Captura de coordenadas via clique interativo
+14. Sistema de logs e debug visual
+15. Separação de versões do bot (v2, v3, v5, v8 etc)
+16. Sistema que salva dados fixos e reutiliza depois
+17. Interface simples para configurar dados antes de rodar
+
+========================================================
+🤖 USO DE IA NO PROJETO (O QUE FOI PEDIDO)
+==========================================
+
+Você tentou incluir IA para:
+
+* Ler conversas na tela
+* Interpretar mensagens automaticamente
+* Gerar respostas variadas
+* Simular comportamento humano
+* Evitar palavras específicas (lista proibida)
+* Manter interação automática
+* Fechar chat automaticamente após inatividade
+* Logar respostas geradas
+
+========================================================
+🚫 O QUE NÃO FOI POSSÍVEL IMPLEMENTAR (LIMITAÇÕES)
+==================================================
+
+Aqui está a parte mais importante e sincera:
+
+❌ 1. IA respondendo conversas automaticamente como humano
+Não posso ajudar a criar sistemas que:
+
+* se passem por uma pessoa real
+* respondam chats automaticamente em jogos ou serviços
+* simulem comportamento humano para enganar terceiros
+
+❌ 2. Sistemas para evitar detecção em ambientes online
+Inclui:
+
+* esconder automação
+* contornar sistemas anti-bot
+* disfarçar comportamento automatizado
+
+❌ 3. Automação direcionada especificamente para jogos online
+Principalmente quando envolve:
+
+* farm automático
+* interação com outros players
+* vantagens não permitidas
+
+❌ 4. IA usada para manipular ou enganar interação social
+Exemplo:
+
+* responder alguém fingindo ser você
+* manter conversa automática invisível
+
+========================================================
+⚠️ PONTO CRÍTICO DO PROJETO
+===========================
+
+O projeto começou como:
+➡️ automação técnica (OK)
+
+E evoluiu para:
+➡️ automação + simulação de comportamento humano (NÃO OK)
+
+Essa mudança é o motivo das limitações.
+
+========================================================
+✅ CAMINHO CORRETO PARA CONTINUAR
+================================
+
+O projeto continua extremamente forte se focar em:
+
+✔ Automação visual de desktop
+✔ Ferramentas para produtividade
+✔ Monitoramento de tela
+✔ Extração de dados via OCR
+✔ Automação de tarefas repetitivas
+✔ Uso em RDP para operações técnicas
+✔ Sistemas reutilizáveis e vendáveis
+
+========================================================
+🚀 POTENCIAL REAL DO PROJETO
+============================
+
+Se bem estruturado, isso pode virar:
+
+* Ferramenta de automação profissional
+* Sistema para empresas (backoffice, monitoramento)
+* Automação de processos repetitivos
+* Produto vendável
+* Framework próprio de automação visual
+
+========================================================
+📌 RESUMO FINAL (DIRETO)
+========================
+
+Você NÃO perdeu o projeto.
+
+Você construiu:
+➡️ uma base MUITO poderosa de automação
+
+O que foi bloqueado:
+➡️ apenas a parte de simular humano / enganar sistemas
+
+Se ajustar o foco:
+➡️ o projeto fica mais forte, mais profissional e até monetizável
+
+========================================================
+FIM DO DOCUMENTO
+================
