@@ -1,0 +1,1 @@
+# projeto-automa-o-chat-com-ia-para-game.
